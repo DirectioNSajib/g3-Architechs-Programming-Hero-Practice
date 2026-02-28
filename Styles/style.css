@@ -1,8 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.work-sans-font {
+
+.inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* shared styles */
+
+.display-flex {
+  display: flex;
+}
+
+.width-80{
+  width: 80%;
+  margin: auto;
+}
+
+.width-60{
+  width: 60%;
+  margin: auto;
+}
+
+.width-40{
+  width: 40%;
+  margin: auto;
+}
+
+
+      /* colors */
+
+      .background-light
+      {
+        background-color: #FFF4E7;
+      }
+
+/* navbar related styles */
+
+.nav-links{
+  list-style: none;
+  gap: 30px;
+  margin: 5px;
+}
+
+
+
+.nav-main
+{
+  justify-content: space-around;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* banner related styles */
+.banner-header {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.banner-para {
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #727272;
+}
+
+.hero {
+    align-items: center;
+    padding: 50px 0;
+}
+
+.button-explore{
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #FF900E;
+  font-size: 1.25rem;
+
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
 }
